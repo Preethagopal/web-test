@@ -1,0 +1,88 @@
+1)FRAMESET:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MOBILE</title>
+    </head>
+    <frameset rows="30%,40%,50%">
+        <frame src="frame1.html"></frame>
+            <frame src="frame2.html"></frame>
+            <frame src="frame3.html"></frame>
+    </frameset>
+</html>
+
+
+
+
+2)MULTIMEDIA:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multimedia Example</title>
+</head>
+<body>
+
+    <h1>Multimedia Example</h1>
+
+    <h2>Audio Example</h2>
+    <audio controls>
+        <source src="audio/sample.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h2>Video Example</h2>
+    <video width="640" height="360" controls>
+        <source src="video/sample.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+
+</body>
+</html>
+
+
+
+
+4)JAVASCRIPT DATE AND TIME:
+
+HTML:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Date and Time Display</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="datetime"></h1>
+
+    <script src="q4.js"></script>
+
+</body>
+</html>
+
+JS:
+
+function updateDateTime() {
+    const datetimeElement = document.getElementById('datetime');
+    const now = new Date();
+    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', timeZoneName: 'short' };
+    const formattedDateTime = now.toLocaleDateString('en-US', options);
+    datetimeElement.textContent = formattedDateTime;
+}
+
+// Update the date and time every second
+setInterval(updateDateTime, 1000);
+
+// Initial call to set the date and time immediately when the page loads
+updateDateTime();
