@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Menu</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        .menu-section {
+            margin-bottom: 30px;
+        }
+
+        .menu-section h2 {
+            color: #555;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        .menu-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .menu-item span {
+            font-weight: bold;
+        }
+
+        .definition-list {
+            margin-top: 20px;
+        }
+
+        .definition-list dt {
+            font-weight: bold;
+        }
+
+        .definition-list dd {
+            margin-left: 0;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Hotel Menu</h1>
+
+    <div class="menu-section">
+        <h2>Appetizers</h2>
+        <ul class="menu-list">
+            <li class="menu-item"><span>1. </span>Bruschetta</li>
+            <li class="menu-item"><span>2. </span>Spinach Artichoke Dip</li>
+            <li class="menu-item"><span>3. </span>Caprese Salad</li>
+        </ul>
+    </div>
+
+    <div class="menu-section">
+        <h2>Main Courses</h2>
+        <ol class="menu-list">
+            <li class="menu-item"><span>1. </span>Grilled Salmon</li>
+            <li class="menu-item"><span>2. </span>Chicken Alfredo</li>
+            <li class="menu-item"><span>3. </span>Vegetarian Pasta</li>
+        </ol>
+    </div>
+
+    <div class="menu-section">
+        <h2>Desserts</h2>
+        <ul class="menu-list">
+            <li class="menu-item"><span>1. </span>Chocolate Fondue</li>
+            <li class="menu-item"><span>2. </span>Apple Pie</li>
+            <li class="menu-item"><span>3. </span>Tiramisu</li>
+        </ul>
+    </div>
+
+    <div class="definition-list">
+        <h2>Beverages</h2>
+        <dl>
+            <dt>Soft Drinks</dt>
+            <dd>Coca-Cola, Pepsi, Sprite</dd>
+            <dt>Hot Drinks</dt>
+            <dd>Coffee, Tea, Hot Chocolate</dd>
+            <dt>Alcoholic Drinks</dt>
+            <dd>Wine, Beer, Cocktails</dd>
+        </dl>
+    </div>
+
+</body>
+</html>
+
+
+
+
+2)RESULT USING TABLE:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result Portal</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .grade {
+            font-weight: bold;
+            color: #fff;
+            padding: 4px 8px;
+            border-radius: 4px;
+        }
+
+        .grade-A {
+            background-color: #4CAF50;
+        }
+
+        .grade-B {
+            background-color: #2196F3;
+        }
+
+        .grade-C {
+            background-color: #FFC107;
+        }
+
+        .grade-D {
+            background-color: #FF5722;
+        }
+
+        .grade-F {
+            background-color: #F44336;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Student Result Portal</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Subject 1</th>
+                <th>Subject 2</th>
+                <th>Subject 3</th>
+                <th>Total Marks</th>
+                <th>Average Marks</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>85</td>
+                <td>92</td>
+                <td>78</td>
+                <td>255</td>
+                <td>85</td>
+                <td class="grade grade-A">A</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>72</td>
+                <td>88</td>
+                <td>65</td>
+                <td>225</td>
+                <td>75</td>
+                <td class="grade grade-B">B</td>
+            </tr>
+            <!-- Add more rows for additional students -->
+        </tbody>
+    </table>
+
+    <h2>Report Card</h2>
+
+    <p>
+        Congratulations to all students for their hard work and achievements in the academic year!
+    </p>
+
+</body>
+</html>
+
+
+
+3)HTML FORMATTING ELEMENT:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Types of Text</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Special Types of Text</h1>
+
+    <p>This is an example of <em>emphasized text</em>.</p>
+
+    <p>This is <mark>marked text</mark> within a paragraph.</p>
+
+    <p><ins>Inserted text</ins> is typically underlined.</p>
+
+    <p>Subscript and superscript text: H<sub>2</sub>O and E = mc<sup>2</sup></p>
+
+    <p><del>Deleted text</del> is usually displayed with a line through it.</p>
+
+    <p>This is an example of <strong>bold text</strong> and <em>emphasized text</em> together.</p>
+
+    <p>This is an example of <em>emphasized text</em> within <strong>bold and <i>italic</i> text</strong>.</p>
+
+</body>
+</html>
+
+
+
+4)QUOTATION AND CITATION:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotation and Citation</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        blockquote {
+            background-color: #f9f9f9;
+            border-left: 4px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        cite {
+            display: block;
+            text-align: right;
+            color: #777;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Quotes and Citations</h1>
+
+    <blockquote>
+        <p>“The only way to do great work is to love what you do.”</p>
+        <cite>— Steve Jobs</cite>
+    </blockquote>
+
+    <blockquote>
+        <p>“In three words I can sum up everything I've learned about life: it goes on.”</p>
+        <cite>— Robert Frost</cite>
+    </blockquote>
+
+    <blockquote>
+        <p>“Success is not final, failure is not fatal: It is the courage to continue that counts.”</p>
+        <cite>— Winston Churchill</cite>
+    </blockquote>
+
+</body>
+</html>
