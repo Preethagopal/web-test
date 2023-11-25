@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Class Test Marklist</title>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px;
+        }
+
+
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+
+    <h2>Class Test Marklist</h2>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Marks</th>
+               
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Joe</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>Hena</td>
+                <td>92</td>
+            </tr>
+            <tr>
+                <td>Trisha</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <td>john</td>
+                <td>88</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</body>
+</html>
+
+
+
+2)RECTANGULAR BOX:
+
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Box Model Example</title>
+    <style>
+        /* Apply styles to the container */
+        .box-container {
+            width: 300px;
+            margin: 20px;
+            padding: 20px;
+            border: 5px solid #333;
+            background-color: #f0f0f0;
+        }
+
+
+        /* Apply styles to the content */
+        .box-content {
+            width: 250px;
+            height: 100px;
+            background-color: #b3d9ff;
+            padding: 10px;
+            border: 1px solid #666;
+        }
+    </style>
+</head>
+<body>
+
+
+    <h2>Box Model Example</h2>
+
+
+    <!-- Container div representing the outer box -->
+    <div class="box-container">
+        <!-- Content div representing the inner box -->
+        <div class="box-content">
+            <p>Welcome to my youtube channel.</p>
+        </div>
+    </div>
+
+
+</body>
+</html>
+
+
+3)JOB PORTAL:
+
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Job Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+
+        nav {
+            background-color: #eee;
+            padding: 0.5em;
+        }
+
+
+        nav a {
+            text-decoration: none;
+            padding: 0.5em 1em;
+            color: #333;
+        }
+
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+        }
+
+
+        h2 {
+            color: #333;
+        }
+
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+
+
+    <header>
+        <h1>Job Portal</h1>
+    </header>
+
+
+    <nav>
+        <a href="3rd.html">Home</a>
+        <a href="job.html">Jobs</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+
+    <section id="home">
+        <h2>Welcome to our Job Portal!</h2>
+        <p>Find your dream job with us.</p>
+    </section>
+
+
+   
+    <footer>
+        <p>&copy; 2023 Job Portal. All rights reserved.</p>
+    </footer>
+
+
+</body>
+</html>
+
+
+
+4)EMOJIS:
+
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Emojis with Fixed Size</title>
+    <style>
+       
+        .emoji {
+            font-size: 24px; /* Set the fixed size for the emoji */
+            margin: 5px; /* Add some margin for spacing */
+        }
+
+
+        /* Example of using positioning in CSS */
+        .position-example {
+            position: relative;
+        }
+
+
+        .positioned-element {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <h2>Emojis with Fixed Size</h2>
+
+
+    <!-- Example 1: Emojis with Fixed Size -->
+    <p>
+        Emojis with fixed size:
+        <span class="emoji">😊</span>
+        <span class="emoji">🌟</span>
+        <span class="emoji">🚀</span>
+    </p>
+
+
+    <!-- Example 2: Positioning in CSS -->
+    <div class="position-example">
+        <div class="positioned-element">
+            This is a positioned element.
+        </div>
+    </div>
+
+
+</body>
+</html>
